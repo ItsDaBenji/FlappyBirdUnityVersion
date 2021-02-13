@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5616681327742911898}
   m_Layer: 0
   m_Name: ColumnSprite
-  m_TagString: Untagged
+  m_TagString: Column
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 5616681327930841178}
   m_Layer: 0
   m_Name: Columns
-  m_TagString: Untagged
+  m_TagString: Column
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -216,6 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 890f954904e01704bba6e6162d97ec05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scrollSpeed: -3
 --- !u!1 &5616681328418041663
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +230,7 @@ GameObject:
   - component: {fileID: 5616681328418041664}
   m_Layer: 0
   m_Name: ColumnSprite (1)
-  m_TagString: Untagged
+  m_TagString: Column
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,10 +7,12 @@ public class ScrollingObject : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    public float scrollSpeed;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(GameManager.instance.scrollSpeed, 0);
+        rb.velocity = new Vector2(scrollSpeed, 0);
     }
 
     private void Update()

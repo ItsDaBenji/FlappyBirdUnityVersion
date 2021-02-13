@@ -27,8 +27,6 @@ public class GameManager : MonoBehaviour
 
     public bool gameOver = false;
 
-    public float scrollSpeed = -1.5f;
-
     private int score = 0;
 
 
@@ -50,7 +48,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if(gameOver && Input.GetMouseButtonDown(0))
+        if(gameOver && Input.GetButtonDown("FLAP"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
